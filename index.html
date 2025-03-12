@@ -360,8 +360,8 @@
   <script>
     let index = 0;
     let mode = 0;
-    let messages = ['Please turn on your robot','Come Here','Plug in Ethernet'];
-    let sizes = ['28vw', '35vw', '25vw'];
+    let messages = ['Turn On Robot','Come Here','Plug in Ethernet'];
+    let sizes = ['35vw', '35vw', '25vw'];
     $('.message').click(()=>{
         index = ++index%messages.length;
         $('.message').text(messages[index]);
