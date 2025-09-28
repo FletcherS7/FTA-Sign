@@ -363,7 +363,7 @@
     let mode = 0;
     let messages = ['Turn On Robot','Come Here','Plug in Ethernet'];
     let sizes = ['27vw', '35vw', '25vw'];
-    $('body').click(()=>{
+    $('.message').click(()=>{
         index = ++index%messages.length;
         $('.message').text(messages[index]);
         $('.message').css('font-size', sizes[index]);
